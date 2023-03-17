@@ -8,8 +8,8 @@ firstSection.classList.add("featured")
 let postermaster = document.querySelector("section.posts")
 postermaster.innerHTML += `<article>
 <img
-  src="./images/paul-gilmore-unsplash.jpg"
-  alt="Image of a mountain in front of a lake."
+  src="https://cdn.mos.cms.futurecdn.net/PosvCa2386NXwo4cM4VWa3-1200-80.jpg"
+  alt="Brian (fast and the furious) looks at Dom.."
 />
 <h3>Stop Planning</h3>
 <p>
