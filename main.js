@@ -47,7 +47,4 @@ dahMain.append(articleLast) //adding the articleLast element with all it's neste
 let article1 = document.querySelector(".posts article")
 let postsSection = document.querySelector(".posts")
 
-console.log(article1);
-
-
 postsSection.append(article1)
