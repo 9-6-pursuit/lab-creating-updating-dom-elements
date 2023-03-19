@@ -42,3 +42,12 @@ articleLast.append(aside) //adding the aside element to articleLast
 let dahMain = document.querySelector("main") //setting the main element within the HTML file as the variable dahMain
 
 dahMain.append(articleLast) //adding the articleLast element with all it's nested elements inside the main element of the HTML file
+
+
+let article1 = document.querySelector(".posts article")
+let postsSection = document.querySelector(".posts")
+
+console.log(article1);
+
+
+postsSection.append(article1)
