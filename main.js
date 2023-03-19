@@ -24,9 +24,14 @@ window.onload = () => {
   
   bold.innerText = 'Read Time:'
   span.append(bold)
-  span.innerText += ' 4 Minutes'
-
+  span.innerHTML += ' 4 Minutes'
+  
+  let link = document.createElement('a');
+  link.setAttribute('href',"#")
+  link.innerText ="Read more..."
   asideParagraph.append(span)
+  asideParagraph.append(link)
+
   console.log(asideParagraph)
   aside.append(asideParagraph)
   article.append(newImage, articleHeader, paragraph, aside)
