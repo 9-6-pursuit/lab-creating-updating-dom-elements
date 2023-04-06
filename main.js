@@ -20,7 +20,7 @@ is so stressful these days; why add to the stress by overworking yourself?`
 
 let pTag = document.createElement("p")
 
-let aTag = document.createElement("a")
+let newATag = document.createElement("a")
 aTag.href = "#"
 aTag.textContent = " Read more..."
 
